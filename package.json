@@ -6,9 +6,6 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {
-    "docsify-cli": "^4.4.2"
-  },
   "devDependencies": {},
   "scripts": {
     "start": "npx docsify serve docs",
