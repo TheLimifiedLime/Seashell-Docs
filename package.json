@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "docsify serve docs",
+    "prettify": "npx prettier --write **/*.{html,js,md}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
