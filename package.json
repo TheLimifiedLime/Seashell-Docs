@@ -6,7 +6,9 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
   "scripts": {
     "start": "docsify serve docs",
     "test": "echo \"Error: no test specified\" && exit 1"
