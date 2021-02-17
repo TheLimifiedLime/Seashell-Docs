@@ -69,5 +69,11 @@
     />
     <!--docsify-fontawesome (latest)-->
     <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+    <!--server worker for offline support-->
+    <script>
+      if (typeof navigator.serviceWorker !== "undefined") {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
   </body>
 </html>
