@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md -->
 
-* [Welcome](/)
-* [Selfhosting](selfhosting.md)
+- [Welcome](/)
+- [Selfhosting](selfhosting.md)
