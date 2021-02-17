@@ -1,18 +1,14 @@
 {
-  "name": "Seashell-Docs",
+  "name": "seashell-docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "devDependencies": {
     "prettier": "2.2.1"
   },
   "scripts": {
     "start": "docsify serve docs",
-    "prettify": "npx prettier --write **/*.{html,js,md}",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettify": "npx prettier --write **/*.{html,js,md}"
   },
   "keywords": [],
   "author": "Issai H",
